@@ -1646,7 +1646,7 @@ footer {
     font-style: italic;
 }
 
-/* Адаптивность */
+
 @media (max-width: 1024px) {
     .pricing-cards {
         grid-template-columns: 1fr;
