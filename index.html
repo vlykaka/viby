@@ -11,7 +11,7 @@
     <header>
         <div class="logo">
             <img src="images/icon.png" alt="icon" class="icon-viby">
-            </div>
+        </div>
         <nav>
             <a href="#home">Home</a>
             <a href="#tracks">Tracks</a>
@@ -41,9 +41,7 @@
         <p class="section-subtitle">Every week we find the latest tracks especially for you</p>
         <div class="tracks-grid">
             <div class="track-card">
-                <div class="track-image">
-                  
-                </div>
+                <div class="track-image"></div>
                 <div class="track-info">
                     <div class="play-btn">▶</div>
                     <div class="track-details">
@@ -54,9 +52,7 @@
                 </div>
             </div>
             <div class="track-card">
-                <div class="track-image karma-image">
-                    
-                </div>
+                <div class="track-image karma-image"></div>
                 <div class="track-info">
                     <div class="play-btn">▶</div>
                     <div class="track-details">
@@ -88,37 +84,39 @@
                 <div class="artist-avatar-1"></div>
                 <h3>BTS</h3>
                 <p>45.4K members</p>
-                <button class="btn-join">Join the club ➜</button>
+                <a href="#club-modal-bts" class="btn-join">Join the club</a>
             </div>
             <div class="fanclub-card">
                 <div class="artist-avatar-2"></div>
                 <h3>KATSEYE</h3>
                 <p>2.5K members</p>
-                <button class="btn-join">Join the club ➜</button>
+                <a href="#club-modal-katseye" class="btn-join">Join the club</a>
             </div>
             <div class="fanclub-card">
                 <div class="artist-avatar-3"></div>
                 <h3>Lady Gaga</h3>
                 <p>5.1K members</p>
-                <button class="btn-join">Join the club ➜</button>
+                <a href="#club-modal-ladygaga" class="btn-join">Join the club</a>
             </div>
             <div class="fanclub-card">
                 <div class="artist-avatar-4"></div>
                 <h3>Billie Eilish</h3>
                 <p>4K members</p>
-                <button class="btn-join">Join the club ➜</button>
+                <a href="#club-modal-billie" class="btn-join">Join the club</a>
             </div>
             <div class="fanclub-card">
                 <div class="artist-avatar-5"></div>
                 <h3>sombr</h3>
                 <p>200K members</p>
-                <button class="btn-join">Join the club ➜</button>
+                <a href="#club-modal-sombr" class="btn-join">Join the club</a>
             </div>
         </div>
         <div class="see-all-container">
             <button class="btn-start">See all (1430)</button>
         </div>
     </section>
+
+    
 
     <section class="find-section">
         <h2 class="section-title find-title">Find<br>everything<br>you like here</h2>
@@ -218,38 +216,38 @@
 
     <section class="registration-section">
         <div class="registration-container">
-          <div class="logo-side">
-            <img src="images/icon2.png" alt="Viby" class="viby-logo">
-          </div>
-      
-          <div class="form-side">
-            <h2 class="form-title">Registration</h2>
-            <p class="form-subtitle">Create your account and dive into the world of music</p>
-      
-            <form class="registration-form">
-              <div class="input-group">
-                <label class="input-label">Who are you?</label>
-                <input type="text" class="input-field" placeholder="Enter your name">
-              </div>
-      
-              <div class="input-group">
-                <label class="input-label">Email</label>
-                <input type="email" class="input-field" placeholder="your@email.com">
-              </div>
-      
-              <div class="input-group">
-                <label class="input-label">Password</label>
-                <input type="password" class="input-field" placeholder="Create a strong password">
-              </div>
-      
-              <div class="button-group">
-                <button type="submit" class="btn-create">Create account</button>
-                <button type="button" class="btn-login">I have an account</button>
-              </div>
-            </form>
-          </div>
+            <div class="logo-side">
+                <img src="images/icon2.png" alt="Viby" class="viby-logo">
+            </div>
+            
+            <div class="form-side">
+                <h2 class="form-title">Registration</h2>
+                <p class="form-subtitle">Create your account and dive into the world of music</p>
+                
+                <form class="registration-form">
+                    <div class="input-group">
+                        <label class="input-label">Who are you?</label>
+                        <input type="text" class="input-field" placeholder="Enter your name">
+                    </div>
+                    
+                    <div class="input-group">
+                        <label class="input-label">Email</label>
+                        <input type="email" class="input-field" placeholder="your@email.com">
+                    </div>
+                    
+                    <div class="input-group">
+                        <label class="input-label">Password</label>
+                        <input type="password" class="input-field" placeholder="Create a strong password">
+                    </div>
+                    
+                    <div class="button-group">
+                        <button type="submit" class="btn-create">Create account</button>
+                        <button type="button" class="btn-login">I have an account</button>
+                    </div>
+                </form>
+            </div>
         </div>
-      </section>
+    </section>
       
     <footer>
         <div class="footer-content">
@@ -288,5 +286,235 @@
             </div>
         </div>
     </footer>
+
+    <!-- МОДАЛЬНЫЕ ОКНА ДЛЯ КАЖДОГО КЛУБА -->
+    
+    <!-- BTS -->
+    <div id="club-modal-bts" class="club-modal">
+        <div class="club-modal-content">
+            <a href="#" class="close-modal">×</a>
+            <h2 class="club-title">BTS Fan Club</h2>
+            <div class="club-stats">
+                <div class="club-card">
+                    <h3>45,394</h3>
+                    <p>Members</p>
+                </div>
+                <div class="club-card">
+                    <h3>89</h3>
+                    <p>Countries</p>
+                </div>
+            </div>
+            <div class="club-info">
+                <h3>K-Pop Exclusive Content</h3>
+                <p>Get behind-the-scenes content, dance practice videos, and exclusive BTS performances.</p>
+            </div>
+            <div class="club-info">
+                <h3>ARMY Community</h3>
+                <p>Connect with millions of ARMY members worldwide and share your love for BTS.</p>
+            </div>
+            <div class="club-info">
+                <h3>Concert Priority</h3>
+                <p>Get early access to concert tickets and exclusive meet & greet opportunities.</p>
+            </div>
+            <a href="#registration-section" class="club-join-btn">Join BTS Club</a>
+        </div>
+    </div>
+
+    <!-- KATSEYE -->
+    <div id="club-modal-katseye" class="club-modal">
+        <div class="club-modal-content">
+            <a href="#" class="close-modal">×</a>
+            <h2 class="club-title">KATSEYE Fan Club</h2>
+            <div class="club-stats">
+                <div class="club-card">
+                    <h3>2,500</h3>
+                    <p>Members</p>
+                </div>
+                <div class="club-card">
+                    <h3>32</h3>
+                    <p>Countries</p>
+                </div>
+            </div>
+            <div class="club-info">
+                <h3>Rising Stars Content</h3>
+                <p>Follow the journey of KATSEYE with exclusive content and weekly updates.</p>
+            </div>
+            <div class="club-info">
+                <h3>Early Releases</h3>
+                <p>Be the first to hear new tracks and watch music videos before anyone else.</p>
+            </div>
+            <div class="club-info">
+                <h3>Interactive Events</h3>
+                <p>Join live Q&A sessions and virtual fan meetings with KATSEYE members.</p>
+            </div>
+            <a href="#registration-section" class="club-join-btn">Join KATSEYE Club</a>
+        </div>
+    </div>
+
+    <!-- Lady Gaga -->
+    <div id="club-modal-ladygaga" class="club-modal">
+        <div class="club-modal-content">
+            <a href="#" class="close-modal">×</a>
+            <h2 class="club-title">Lady Gaga Fan Club</h2>
+            <div class="club-stats">
+                <div class="club-card">
+                    <h3>5,100</h3>
+                    <p>Members</p>
+                </div>
+                <div class="club-card">
+                    <h3>65</h3>
+                    <p>Countries</p>
+                </div>
+            </div>
+            <div class="club-info">
+                <h3>Little Monsters Unite</h3>
+                <p>Join the global Little Monsters community and celebrate Mother Monster together.</p>
+            </div>
+            <div class="club-info">
+                <h3>Exclusive Performances</h3>
+                <p>Access to exclusive concert footage, rehearsals, and intimate acoustic sessions.</p>
+            </div>
+            <div class="club-info">
+                <h3>Fashion & Art</h3>
+                <p>Explore Gaga's iconic fashion moments and artistic projects with exclusive content.</p>
+            </div>
+            <a href="#registration-section" class="club-join-btn">Join Little Monsters</a>
+        </div>
+    </div>
+
+    <!-- Billie Eilish -->
+    <div id="club-modal-billie" class="club-modal">
+        <div class="club-modal-content">
+            <a href="#" class="close-modal">×</a>
+            <h2 class="club-title">Billie Eilish Fan Club</h2>
+            <div class="club-stats">
+                <div class="club-card">
+                    <h3>4,000</h3>
+                    <p>Members</p>
+                </div>
+                <div class="club-card">
+                    <h3>58</h3>
+                    <p>Countries</p>
+                </div>
+            </div>
+            <div class="club-info">
+                <h3>Intimate Sessions</h3>
+                <p>Get access to Billie's personal stories, studio sessions, and creative process.</p>
+            </div>
+            <div class="club-info">
+                <h3>Limited Merch</h3>
+                <p>Exclusive access to limited edition merchandise and signed collectibles.</p>
+            </div>
+            <div class="club-info">
+                <h3>Direct Connection</h3>
+                <p>Join virtual hangouts and get closer to Billie through exclusive fan interactions.</p>
+            </div>
+            <a href="#registration-section" class="club-join-btn">Join Billie's Club</a>
+        </div>
+    </div>
+
+    <!-- sombr -->
+    <div id="club-modal-sombr" class="club-modal">
+        <div class="club-modal-content">
+            <a href="#" class="close-modal">×</a>
+            <h2 class="club-title">sombr Fan Club</h2>
+            <div class="club-stats">
+                <div class="club-card">
+                    <h3>200,000</h3>
+                    <p>Members</p>
+                </div>
+                <div class="club-card">
+                    <h3>95</h3>
+                    <p>Countries</p>
+                </div>
+            </div>
+            <div class="club-info">
+                <h3>Underground Vibes</h3>
+                <p>Dive deep into sombr's unique sound with exclusive remixes and unreleased tracks.</p>
+            </div>
+            <div class="club-info">
+                <h3>Producer Insights</h3>
+                <p>Learn production techniques and get tutorials from sombr's creative process.</p>
+            </div>
+            <div class="club-info">
+                <h3>Global Community</h3>
+                <p>Connect with the largest underground music community and discover new artists.</p>
+            </div>
+            <a href="#registration-section" class="club-join-btn">Join sombr Club</a>
+        </div>
+    </div>
+
+    <section id="pricing" class="pricing-section">
+        <div class="pricing-container">
+            <a href="#" class="close-pricing">×</a>
+            
+            <h2 class="pricing-main-title">Choose Your Plan</h2>
+            <p class="pricing-subtitle">Unlock premium features and enjoy unlimited music</p>
+            
+            <div class="pricing-cards">
+                <div class="pricing-card">
+                    <div class="plan-badge">Most Popular</div>
+                    <h3 class="plan-title">Individual</h3>
+                    <div class="plan-price">
+                        <span class="price">$3.99</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <ul class="plan-features">
+                        <li>✓ Ad-free listening</li>
+                        <li>✓ Unlimited skips</li>
+                        <li>✓ Offline downloads</li>
+                        <li>✓ High quality audio (320kbps)</li>
+                        <li>✓ Access to all fan clubs</li>
+                        <li>✓ Early access to new releases</li>
+                        <li>✓ Personalized playlists</li>
+                    </ul>
+                    <a href="#registration-section" class="plan-btn plan-btn-primary">Get Started</a>
+                </div>
+
+                <div class="pricing-card">
+                    <div class="plan-badge student-badge">50% Off</div>
+                    <h3 class="plan-title">Student</h3>
+                    <div class="plan-price">
+                        <span class="price">$1.49</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <ul class="plan-features">
+                        <li>✓ All Individual benefits</li>
+                        <li>✓ Student verification required</li>
+                        <li>✓ Campus exclusive content</li>
+                        <li>✓ Study playlists</li>
+                        <li>✓ Share with 1 friend</li>
+                        <li>✓ Extended trial period (3 months)</li>
+                        <li>✓ Student community access</li>
+                    </ul>
+                    <a href="#registration-section" class="plan-btn">Get Student Discount</a>
+                </div>
+
+                <div class="pricing-card">
+                    <div class="plan-badge family-badge">Best Value</div>
+                    <h3 class="plan-title">Family</h3>
+                    <div class="plan-price">
+                        <span class="price">$8.99</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <ul class="plan-features">
+                        <li>✓ Up to 6 family members</li>
+                        <li>✓ Individual accounts for each</li>
+                        <li>✓ All Individual benefits</li>
+                        <li>✓ Family Mix playlist</li>
+                        <li>✓ Parental controls</li>
+                        <li>✓ Shared family library</li>
+                        <li>✓ Priority customer support</li>
+                    </ul>
+                    <a href="#registration-section" class="plan-btn">Start Family Plan</a>
+                </div>
+            </div>
+
+            <div class="pricing-note">
+                <p>All plans include a 30-day free trial. Cancel anytime. Terms and conditions apply.</p>
+            </div>
+        </div>
+    </section>
+    
 </body>
 </html>
